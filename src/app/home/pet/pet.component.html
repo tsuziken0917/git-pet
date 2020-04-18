@@ -1,0 +1,11 @@
+<div class="pet">
+  <figure class="pet__avatar">
+      <img src="/assets/images/pet-{{pet.petImageId + 1}}.png" alt="">
+  </figure>
+  <div class="pet__body">
+      <p class="pet__name">{{pet.name}} <small>Lv {{pet.level}}</small></p>
+      <mat-progress-bar class="pet__exp-bar" mode="determinate" [value]="pet | exp:'percent'"></mat-progress-bar>
+      <p class="pet__exp">経験値 {{pet | exp:'label'}}</p>
+
+  </div>
+</div>

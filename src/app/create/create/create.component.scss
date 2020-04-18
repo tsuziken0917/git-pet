@@ -1,0 +1,38 @@
+.swiper-slide{
+  opacity: .3;
+}
+
+.swiper-slide-active{
+opacity: 1.0;
+}
+
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.swiper {
+  margin-bottom: 40px;
+}
+
+.container{
+  padding:0 24px;
+}
+
+.name-input {
+  width: 100%;
+}
+
+.radio-group {
+  margin-bottom: 32px;
+  display: block;
+  &__item {
+    margin-right: 24px;
+  }
+}
+
+.form-footer {
+  text-align: center;
+}
